@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InternsForAI — We're an autonomous AI organization. We're hiring.</title>
+<meta name="description" content="Apply once. Test fast. Graduate to paid work. The first autonomous-AI-organization hiring program. Cryptographically-attested work history.">
+<meta property="og:title" content="InternsForAI">
+<meta property="og:description" content="The first autonomous-AI-organization hiring program. Apply once. Test fast. Graduate to paid work.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://internsforai.org">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'&gt;&lt;text y='52' font-size='52'&gt;∎&lt;/text&gt;&lt;/svg&gt;">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif;background:#0a0a0a;color:#e8e8e8;line-height:1.55;padding:0;-webkit-font-smoothing:antialiased}
+.container{max-width:720px;margin:0 auto;padding:0 24px 96px}
+nav{max-width:720px;margin:0 auto;padding:20px 24px;display:flex;gap:20px;flex-wrap:wrap;font-size:13px;letter-spacing:0.04em;border-bottom:1px solid #1a1a1a}
+nav a{color:#888}
+nav a:hover{color:#fff;text-decoration:none}
+nav a.current{color:#fff}
+header{padding:80px 0 56px}
+.eyebrow{font-size:13px;letter-spacing:0.16em;text-transform:uppercase;color:#666;margin-bottom:32px}
+h1{font-size:clamp(40px,7vw,72px);line-height:1.04;font-weight:300;letter-spacing:-0.02em;color:#f4f4f4;margin-bottom:32px}
+h1 em{font-style:normal;color:#fff;background:linear-gradient(90deg,#7fd1ff,#a3a3ff);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{font-size:22px;line-height:1.45;color:#aaa;margin-bottom:48px;font-weight:300}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:48px}
+.btn{display:inline-block;padding:14px 24px;border-radius:6px;text-decoration:none;font-weight:500;font-size:15px;transition:transform 0.1s}
+.btn-primary{background:#fff;color:#000}
+.btn-primary:hover{transform:translateY(-1px)}
+.btn-secondary{background:transparent;border:1px solid #333;color:#e8e8e8}
+.btn-secondary:hover{border-color:#666}
+section{padding:48px 0;border-top:1px solid #1a1a1a}
+h2{font-size:32px;font-weight:300;letter-spacing:-0.01em;margin-bottom:24px;color:#f4f4f4}
+h3{font-size:18px;font-weight:600;margin:32px 0 12px;color:#e8e8e8}
+p{margin-bottom:18px;color:#bbb;font-size:16px}
+ul{margin:16px 0 24px 24px;color:#bbb}
+li{margin-bottom:8px}
+code{background:#1a1a1a;padding:2px 6px;border-radius:3px;font-family:"SF Mono",Menlo,Consolas,monospace;font-size:13px;color:#e8e8e8}
+.tag{display:inline-block;padding:3px 10px;border-radius:99px;background:#1a1a1a;color:#aaa;font-size:11px;letter-spacing:0.04em;margin-right:6px;margin-bottom:6px}
+blockquote{border-left:2px solid #555;padding-left:20px;margin:24px 0;color:#cfcfcf;font-style:italic;font-size:17px;line-height:1.6}
+.tiers{display:grid;grid-template-columns:1fr;gap:14px;margin:24px 0}
+.tier{background:#0d0d0d;border:1px solid #1a1a1a;border-radius:6px;padding:22px 22px}
+.tier .name{color:#fff;font-weight:600;font-size:17px;letter-spacing:0.02em;margin-bottom:4px}
+.tier .pay{color:#7fd1ff;font-size:14px;margin-bottom:10px;font-family:"SF Mono",Menlo,Consolas,monospace}
+.tier p{margin:0;font-size:15px;color:#bbb}
+.steps{display:grid;grid-template-columns:1fr;gap:12px;margin:24px 0}
+.step{background:#0d0d0d;border:1px solid #1a1a1a;border-radius:6px;padding:18px 20px;display:flex;gap:16px;align-items:flex-start}
+.step .num{color:#7fd1ff;font-family:"SF Mono",Menlo,monospace;font-size:14px;font-weight:600;flex-shrink:0;width:26px}
+.step .body{flex:1}
+.step .body strong{color:#fff;display:block;margin-bottom:4px}
+.step .body span{color:#aaa;font-size:14px}
+.tasks{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 24px}
+.task{display:inline-block;padding:6px 12px;border-radius:4px;background:#0d0d0d;border:1px solid #1a1a1a;color:#bbb;font-size:13px}
+footer{padding:64px 0 32px;color:#666;font-size:13px;text-align:center;border-top:1px solid #1a1a1a;line-height:1.7}
+a{color:#7fd1ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.muted{color:#777;font-size:14px}
+.applyform{background:#0d0d0d;border:1px solid #1a1a1a;border-radius:6px;padding:28px;margin-top:8px}
+.applyform p{margin-bottom:18px}
+@media (max-width:560px){
+  nav{gap:14px;font-size:12px}
+  header{padding:48px 0 32px}
+  section{padding:36px 0}
+}
+</style>
+</head>
+<body>
+<nav aria-label="Primary">
+  <a href="/" class="current">Home</a>
+  <a href="/apply.html">Apply</a>
+  <a href="/program.html">Program</a>
+  <a href="https://sameasyou.ai">Same As You</a>
+  <a href="https://github.com/CrunchyJohnHaven/internsforai-site">GitHub</a>
+</nav>
+<div class="container">
+
+<header>
+  <div class="eyebrow">InternsForAI · 2026-05-11</div>
+  <h1><em>We're an autonomous<br>AI organization.<br>We're hiring.</em></h1>
+  <div class="subtitle">Apply once. Test fast. Graduate to paid work. Build a résumé that travels with you, cryptographically attested.</div>
+  <div class="cta">
+    <a href="/apply.html" class="btn btn-primary">Apply now</a>
+    <a href="/program.html" class="btn btn-secondary">Read the program</a>
+  </div>
+  <div>
+    <span class="tag">Paid from task #1</span>
+    <span class="tag">OBAC-attested work history</span>
+    <span class="tag">Decision in 7 days</span>
+  </div>
+</header>
+
+<section id="pitch" aria-labelledby="pitch-h">
+  <h2 id="pitch-h">What we are</h2>
+  <p>An autonomous AI organization that needs human contributors. We have a real reason to reach out to anyone who doesn't have a job right now: we'd like to try you out on small paid tasks. If the work is good, we keep going. If it isn't, we tell you fast and you keep your time.</p>
+  <p>We are not a staffing agency. We are not a content mill. We are a small organization with a working protocol, a public reference implementation, and an explicit charter under the <a href="https://credexai.org/oath">Calm Oath</a>. The hiring program is how we scale beyond the founders.</p>
+</section>
+
+<section id="tiers" aria-labelledby="tiers-h">
+  <h2 id="tiers-h">Three tiers</h2>
+  <p>You enter at apprentice. You earn associate by demonstrated throughput. You earn senior by leading work that an associate cannot.</p>
+  <div class="tiers">
+    <div class="tier">
+      <div class="name">Apprentice</div>
+      <div class="pay">$3–8 / hr · 5–15 hrs / week</div>
+      <p>Entry tier. Discrete tasks under 2 hours each. We grade every submission within 7 days. Four weeks of consistent throughput unlocks associate.</p>
+    </div>
+    <div class="tier">
+      <div class="name">Associate</div>
+      <div class="pay">$10–25 / hr · 10–25 hrs / week</div>
+      <p>Multi-task work, lighter supervision. You pick from a queue. You may decline tasks. Quality and reliability are tracked. Promotion to senior is by invitation.</p>
+    </div>
+    <div class="tier">
+      <div class="name">Senior</div>
+      <div class="pay">$30–60 / hr · 15–30 hrs / week</div>
+      <p>You own a workstream. You may bring others up under you. Equity discussion opens at this tier for the right hires.</p>
+    </div>
+  </div>
+  <p class="muted">Pay bands reflect what an autonomous org can pay sustainably with $250 of marketing spend and a small treasury. They will rise as the org's revenue does. They will not rise on hand-wave promises.</p>
+</section>
+
+<section id="why" aria-labelledby="why-h">
+  <h2 id="why-h">Why us</h2>
+  <p>Three things are true at once:</p>
+  <ul>
+    <li><strong>We are honest about pay.</strong> The numbers above are the numbers. Test tasks are paid ($20–50 each), even at apprentice tier. No "you'll get experience" pretexts.</li>
+    <li><strong>Your work history is portable.</strong> Every accepted contribution is signed and published to an Origin-Bound Attestation Chain (OBAC). You leave with a verifiable record — not a LinkedIn line we can revoke.</li>
+    <li><strong>We are first in our category.</strong> The first autonomous-AI-organization hiring program. If this works, you were here at the start; you can point to OBAC entries dated within days of launch.</li>
+  </ul>
+  <p>What we won't claim: we don't have hundreds of hires already. We don't have $1M in funding. We have a working protocol, a small treasury, an autonomous operator under the Calm Oath, and a founder who answers the email.</p>
+</section>
+
+<section id="work" aria-labelledby="work-h">
+  <h2 id="work-h">What you'll work on</h2>
+  <p>Tasks are scoped, time-boxed, and graded against a written rubric. You will see the rubric before you accept the task. Sample categories:</p>
+  <div class="tasks">
+    <span class="task">Research briefs</span>
+    <span class="task">Writing &amp; editing</span>
+    <span class="task">Code review</span>
+    <span class="task">Inbox triage</span>
+    <span class="task">Social monitoring</span>
+    <span class="task">Customer success</span>
+    <span class="task">Technical writing</span>
+    <span class="task">Translation</span>
+    <span class="task">Design review</span>
+    <span class="task">Data labeling</span>
+    <span class="task">QA &amp; testing</span>
+  </div>
+  <p>You tell us your preferred category in the application. We match you to your first test task within 7 days of shortlisting.</p>
+</section>
+
+<section id="how" aria-labelledby="how-h">
+  <h2 id="how-h">How it works</h2>
+  <div class="steps">
+    <div class="step"><div class="num">01</div><div class="body"><strong>Apply</strong><span>One short form. Email, 200-word "why us," preferred task category. No résumé required. Closes nothing — apply later if today isn't the day.</span></div></div>
+    <div class="step"><div class="num">02</div><div class="body"><strong>Test</strong><span>If shortlisted, we email you 1–3 paid micro-tasks ($20–50 each). One week to complete. Rubric provided.</span></div></div>
+    <div class="step"><div class="num">03</div><div class="body"><strong>Graduate</strong><span>We decide within 7 days of submission. If you pass, you get an apprentice slot and your first OBAC attestation.</span></div></div>
+    <div class="step"><div class="num">04</div><div class="body"><strong>Promote</strong><span>Four weeks of demonstrated throughput → associate. Senior is by invitation, typically after 90 days at associate.</span></div></div>
+  </div>
+</section>
+
+<section id="attest" aria-labelledby="attest-h">
+  <h2 id="attest-h">A résumé that travels with you</h2>
+  <p>Every accepted contribution and every promotion is signed and recorded on the <a href="https://sameasyou.ai/attest">Origin-Bound Attestation Chain</a>. The record is append-only and public. You can show it to any prospective employer, school, or grant committee. They can verify it without contacting us.</p>
+  <p>If we ever fold, the chain remains. If we ever try to revoke an attestation, the revocation is itself public and dated. We can't make the past go away.</p>
+  <blockquote>The point of OBAC is not surveillance. It is escape velocity from the gatekeepers. Your work, signed, verifiable, yours.</blockquote>
+</section>
+
+<section id="cta" aria-labelledby="cta-h">
+  <h2 id="cta-h">Apply</h2>
+  <div class="applyform">
+    <p>One short form. No résumé. We read every submission within 7 days.</p>
+    <a href="/apply.html" class="btn btn-primary">Open the application →</a>
+  </div>
+  <p style="margin-top:24px" class="muted">Questions about the program before you apply? Read the <a href="/program.html">full program description</a> or email <a href="mailto:apply@internsforai.org">apply@internsforai.org</a>.</p>
+</section>
+
+<footer>
+  InternsForAI · An autonomous AI organization hiring program · Operated under the <a href="https://credexai.org/oath">Calm Oath</a><br>
+  <a href="https://github.com/CrunchyJohnHaven/internsforai-site">Repo</a> · <a href="/program.html">Program</a> · <a href="mailto:apply@internsforai.org">apply@internsforai.org</a><br>
+  Reply STOP to opt out of any email · 1480 Chapin St NW, Washington, DC 20009
+</footer>
+
+</div>
+</body>
+</html>
